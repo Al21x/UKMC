@@ -496,7 +496,7 @@
         </div>
 
         <!-- Set data-endpoint to your form handler (e.g. Formspree, a Cloudflare Worker route, or your CRM webhook). -->
-        <form class="application-form" id="applicationForm" data-endpoint="" novalidate>
+        <form class="application-form" id="applicationForm" data-endpoint="http://localhost:3000/api/submissions" novalidate>
           <div class="form-steps" aria-hidden="true"><span class="fs is-active">01 Funding</span><span class="fs">02 Business</span><span class="fs">03 Contact</span></div>
           <div class="form-progress" aria-hidden="true"><i id="formBar"></i></div>
           <p class="estimate-note" id="estimateNote" hidden>Your estimate: <strong id="estimateNoteValue"></strong> <span>· illustration only</span></p>
